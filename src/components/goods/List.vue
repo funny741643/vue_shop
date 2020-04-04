@@ -104,7 +104,6 @@ export default {
         this.$message.error('获取商品列表失败！')
       }
       this.$message.success('获取商品列表成功！')
-      console.log(res.data)
       this.goodslist = res.data.goods
       this.total = res.data.total
     },
